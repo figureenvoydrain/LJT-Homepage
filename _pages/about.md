@@ -3,9 +3,6 @@ permalink: /
 title: "Junteng Liu"
 excerpt: "First-year PhD candidate at HKUST NLP Group researching natural language processing, machine learning, LLM reasoning, reinforcement learning, VLM hallucination, truthfulness, and interpretability."
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 I am a first-year PhD candidate at the HKUST NLP Group, Hong Kong University of Science and Technology. I am pursuing a Ph.D. in Computer Science (2024–Present). I graduated from Shanghai Jiao Tong University (SJTU) in June 2024, where I completed a B.Eng. (2020–2024).
