@@ -11,26 +11,53 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>2025</h2>
+<hr />
 
+<div class="publication-entry">
+  <h3>SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond</h3>
+  <p><strong>First author:</strong> Junteng Liu</p>
+  <p><strong>Co-authors:</strong> Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He</p>
+  <p><em>Published on Arxiv, 2025.</em></p>
+  <p><strong>Code repository:</strong> GitHub repository available.</p>
+</div>
 
+<div class="publication-entry">
+  <h3>On the Perception Bottleneck of VLMs for Chart Understanding</h3>
+  <p><strong>First author:</strong> Junteng Liu</p>
+  <p><strong>Co-authors:</strong> Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He</p>
+  <p><em>Published on Arxiv, 2025.</em></p>
+  <p><strong>Code repository:</strong> Vision4Chart on GitHub.</p>
+</div>
 
+<h2>2024</h2>
+<hr />
+
+<div class="publication-entry">
+  <h3>On the Universal Truthfulness Hyperplane Inside LLMs</h3>
+  <p><strong>First author:</strong> Junteng Liu</p>
+  <p><strong>Co-authors:</strong> Shiqi Chen, Yu Cheng, Junxian He</p>
+  <p><em>Published at EMNLP 2024.</em></p>
+  <p><strong>Code repository:</strong> Universal_Truthfulness_Hyperplane on GitHub.</p>
+</div>
+
+<div class="publication-entry">
+  <h3>In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation</h3>
+  <p><strong>Authors:</strong> Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He</p>
+  <p><em>Published at ICML 2024.</em></p>
+</div>
+
+<h2>2023</h2>
+<hr />
+
+<div class="publication-entry">
+  <h3>C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models</h3>
+  <p><strong>Authors:</strong> Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He</p>
+  <p><em>Published at NeurIPS 2023.</em></p>
+</div>
+
+<div class="publication-entry">
+  <h3>Composing Parameter-Efficient Modules with Arithmetic Operations</h3>
+  <p><strong>Authors:</strong> Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He</p>
+  <p><em>Published at NeurIPS 2023.</em></p>
+</div>
